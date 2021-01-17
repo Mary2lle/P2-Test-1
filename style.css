@@ -1,0 +1,134 @@
+style.css
+
+font-face{
+    font-family: "Raleway-VariableFont_wght.ttf";
+    src:url(Users/Maryelle/Desktop/Openclassroom/P2_Leroy_Maryelle/Projet2-Reservia/Raleway-VariableFont_wght.ttf);
+}
+
+body{   color: pink; 
+        font-family: raleway;}
+    
+.logo{
+            float: left;
+            width: 100px;
+            height: auto;
+        }
+
+.hebergement {color: blue;
+              font-size: 20px;
+              text-align: right;}
+
+.activites{ color: grey;
+            font-size: 20px;
+            text-align: right;}
+
+.sinscire { color: blue;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: right;
+        }
+
+.titregras { font-weight: bold;
+            color: black;
+            font-size: 30px;}
+
+.soustitre { font-style: normal;
+             color: grey;
+             font-size: 20px;}
+
+.gpspoint{ float: left;
+           width: 20px;
+           height: auto;}
+
+.marseillefrance{ color: black;
+                  font-size: 20px;
+                  font-weight: bold;}
+    
+.rechercher { color: white;
+              font-size: 20px;
+              font-weight: bold;
+            background-color: blue;}
+
+.filtres{ color: black;
+          font-size: 20px;
+          font-weight: bold;}
+
+.economique {color: darkgoldenrod;}
+
+.billet{ width: 20px;
+         height: auto;}
+
+.child{ width: 15px;
+        height: auto;}
+
+.heart{ width: 15px;
+        height: auto;}
+
+.dog{ width: 20px;
+      height: auto;}
+
+.info{ float: left; 
+        width: 5px;
+        height: auto;}
+
+/* balise block 1 + générale */
+
+.premierblock{
+    border-radius: 20px;
+    background-color:#F2F2F2;
+}
+
+.titreblock{color: black;
+             font-size: 30px;
+             font-weight: bold;}
+        
+.photoblock1{width: 300px;
+             height: 200px;}
+
+.nomhebergement{color: black;
+                font-size: 20px;
+                font-weight: bold;}
+
+.nuitapartirde{ color: grey;
+                font-size: 15px;
+                font-weight: lighter;}
+
+.notebleu{ width: 20px;
+           height: auto;}
+
+.notegris{ width: 20px;
+           height: auto;}
+
+
+/* balise block 2*/
+
+.deuxiemeblock{
+    border-radius: 20px;
+    background-color:#F2F2F2;
+}
+
+.pictotcroissance{ width: 20px;
+                   height: 20px;}
+
+.photoblock2{width: 200px;
+            height: 200px;}
+
+/* balise block 3*/
+
+.photoblock3portrait{width: auto;
+                    height: 400px;}
+
+.photoblock3paysage{width: 300px;
+                   height: auto;}
+
+/* balise footer*/
+
+footer{
+    
+    background-color:#F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-right: 300px;
+    padding-left: 60px;
+}
